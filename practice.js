@@ -24,7 +24,9 @@ function total() {
 
 
 function placeOrder(ccNumba) {
-  if (ccNumbda = nil
+  if (ccNumbda === nil) {
+    ""
+  }
   
   
 
