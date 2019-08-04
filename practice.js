@@ -23,15 +23,9 @@ function total() {
 // If the item is present in the cart, the function should remove the object from the cart and then return the updated cart.
 
 
-function removeFromCart(cart, item) {
-  i = 0;
-  while (i < cart.length) {
-    if (cart[i] == item) {
-      cart.remove[i];
-  }
-  return cart
-  }
-}
+function placeOrder(ccNumba) {
+  if (ccNumbda = nil
+  
+  
 
-console.log(removeFromCart(cart2, thing1));
-console.log(cart2);
+}
