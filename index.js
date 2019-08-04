@@ -101,7 +101,7 @@ function removeFromCart(item) {
   for(var i = 0; i < cart.length; i++){
     itemName.push(cart[i].itemName)
     }
-  
+    
   const index = itemName.indexOf(item)
   
   if(index > -1){
