@@ -27,7 +27,7 @@ function removeFromCart(cart, item) {
   i = 0;
   while (i < cart.length) {
     if (cart[i] == item) {
-      cart[i] = nil
+      cart.unshift[1]
   }
   return cart
   }
