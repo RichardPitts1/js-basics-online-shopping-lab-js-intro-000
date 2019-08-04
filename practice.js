@@ -21,6 +21,8 @@ function total() {
 }
 
 // If the item is present in the cart, the function should remove the object from the cart and then return the updated cart.
-function removeFromCart(item) {
+
+
+function removeFromCart(cartitem) {
   
 }
