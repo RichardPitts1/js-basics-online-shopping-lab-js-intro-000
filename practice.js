@@ -1,4 +1,9 @@
-var cart = [];
+var thing1 = "ball";
+var thing2 = "pencil";
+var thing3 = "arrow";
+
+
+var cart = [thing1, thing2, thing3];
 var numbers = [];
 var sum = 0;
 
@@ -15,7 +20,7 @@ function total() {
   
 }
 
-# If the item is present in the cart, the function should remove the object from the cart and then return the updated cart.
-function removeFromCart() {
+// If the item is present in the cart, the function should remove the object from the cart and then return the updated cart.
+function removeFromCart(item) {
   
 }
