@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 var cart = [];
  var numbers = []
  var sum = 0
