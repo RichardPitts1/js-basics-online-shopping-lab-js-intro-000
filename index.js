@@ -121,7 +121,7 @@ function placeOrder(cardNumber) {
     return `Your total cost is $${total1}, which will be charged to the card ${cardNumber}.`
   }
 }
-=======
+
 
 
 var cart = [];
