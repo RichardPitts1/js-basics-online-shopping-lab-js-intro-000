@@ -3,7 +3,7 @@ var thing2 = "pencil";
 var thing3 = "arrow";
 
 
-var cart = [thing1, thing2, thing3];
+var cart2 = [thing1, thing2, thing3];
 var numbers = [];
 var sum = 0;
 
@@ -23,6 +23,15 @@ function total() {
 // If the item is present in the cart, the function should remove the object from the cart and then return the updated cart.
 
 
-function removeFromCart(cartitem) {
-  
+function removeFromCart(cart, item) {
+  i = 0;
+  while (i < cart.length) {
+    if (cart[i] == item) {
+      cart[i] = nil
+  }
+  return cart
+  }
 }
+
+console.log(removeFromCart(cart2, thing1));
+console.log(cart2);
